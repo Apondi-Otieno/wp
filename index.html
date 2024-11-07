@@ -1,0 +1,655 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="portfolio">
+  <title>Apondi Otieno</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.jpeg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+<!--         
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpeg" alt="Aurel Agbodoyetin" width="80">
+        </figure>  -->
+
+        <div class="info-content">
+          <h1 class="name" title="Apondi Otieno">Apondi B. Otieno</h1>
+          <p class="title">Data Strategist.</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title"></p>
+              <a href="mailto:apondioti@gmail.com" class="contact-link">Email me</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+254799322172" class="contact-link">+254 799 322 172</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Nairobi, Kenya</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/apondi-otieno/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+
+          <li class="social-item">
+            <a href="https://github.com/Apondi-Otieno" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <a href="https://drive.google.com/file/d/1JTXbRWsfiMlYvvP_V1ni97Us7X-yLJnu/view?usp=sharing" target="_blank">
+          <button class="download-btn">
+            <div class="top">
+              <ion-icon name="cloud-download-outline"></ion-icon> 
+              <span>Download my CV</span>
+            </div>
+          </button>
+        </a>
+
+      </div>
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Conferences</button>
+          </li> -->
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Awards</button>
+          </li> -->
+
+          
+        </ul>
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">Introduction</h2>
+        </header>
+
+        <section class="about-text" style="text-align: justify; text-justify: inter-word;">
+          <p>
+            Hi, I'm <strong> Apondi,</strong> a Computational Mathematical Strategist with a strong focus on using data to drive social good, 
+            optimize company processes and build sustainable brands. My expertise include; Pure and Applied Mathematics, Software Development, 
+            Topological Data Analysis, Project Management, Entrepreneurship, Idea generation, Research and data science. The tech stack I enjoy 
+            most is Python in Jupyter notebook/Google colab and Power BI. Currently, at my consultancy, Thinking BIH, I focus on the application
+            of data insights in building financial brand sustainability for underserved markets in Africa. 
+
+          </p>
+
+          <p>
+          I look forward to exploring "AI for Mental Health", which is a deep dive on the application
+          of machine learning to improve diagnoses in neuroscience, further, in my graduate studies.
+          </p>
+        </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">Interests:</h3>
+          <ul class="service-list">
+            <li class="service-item">
+            
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science in Brand Sustainability</h4>
+                <p class="service-item-text">
+                  AI models that optimize company processes and build sustainable brands.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+             
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI for mental health</h4>
+                <p class="service-item-text">
+                  AI models that improve diagnoses in neuroscience.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+             
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI applications in finance</h4>
+                <p class="service-item-text">
+                  AI algorithms that detect fraudulent activities in financial data.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Application of Mathematics</h4>
+                <p class="service-item-text">
+                  Teaching mathematical applications in data science, specifically, graph theory and topological data analysis.
+                </p>
+              </div>
+            </li> 
+<!-- 
+            <li class="service-item">
+             
+            </li>
+
+            <li class="service-item">
+             
+            </li> -->
+          </ul>
+        </section>
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <time datetime="2021-06-14">14 June, 2021</time>
+              <div data-modal-text>
+                <p>
+          
+                </p>
+              </div>
+            </div>
+
+          </section>
+        </div>
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Bsc. Pure and Applied Mathematics</h4>
+              <span>Aug  2017 - Mar 2022</span>
+              <p class="timeline-text" style="text-align: justify; text-justify: inter-word;">
+               I specialized in computational mathematics, focusing on the development and application of mathematical tools to solve complex computational problems. 
+               My coursework included advanced topics in algorithm analysis, mathematical modeling, and computational theory. I developed strong skills in using 
+               mathematical techniques to analyze and optimize algorithms, which are essential for efficient computing.
+              <br><br>
+              For my final project, titled "Modeling the Complexity of Algorithms via Partial Quasi-Metric Spaces," I developed innovative mathematical tools 
+              for program verification and complexity analysis. This project involved creating new methods to measure and analyze the complexity of algorithms, 
+              providing a more nuanced understanding of their efficiency and performance. Through this work, I gained experience in applying theoretical concepts
+              to practical problems, bridging the gap between abstract mathematics and real-world applications. This specialization has equipped me with the analytical 
+              and problem-solving skills necessary to tackle challenging issues in computational mathematics and data analysis.
+              </p>
+            </li>
+
+            <!-- <li class="timeline-item">
+             
+            </li>
+
+            <li class="timeline-item">
+             
+            </li> -->
+            
+          </ol>
+        </section>
+
+        <section class="timeline" style="text-align: justify; text-justify: inter-word;">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list" >
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Prospect 33 - Data Science Intern</h4>
+              <span>July 2024 - Present</span><br>
+              <h5 class="added-title">Responsibilities:</h5>
+              <p class="timeline-text">
+               
+                &#8226; Learned explainable anomaly detection methods using 6 datasets, including 5 ADBench and 1 IFC dataset. <br>
+                &#8226; Focused on making detected anomalies explainable and readable to the end user. <br>
+                &#8226; Applied anomaly detection techniques to detect fraudulent activities in financial markets. <br>
+              </p>
+              <br>
+
+              <h5 class="added-title">Skills:</h5>
+              <p class="timeline-text">
+                &#8226; Data Manipulation and Analysis :  Proficiently used Pandas for data preprocessing and manipulation.<br>
+                &#8226; Machine Learning Implementation : Applied scikit-learn for developing and evaluating anomaly detection models. <br>
+                &#8226; Collaborative Programming: Utilized Google Colab for coding, collaboration, and sharing work. <br>
+                
+              </p>
+             
+            </li>
+
+             <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"> EssenceMediacom - Media Operations Executive</h4>
+              <span>Sept 2023 - May 2024</span><br>
+              <h5 class="added-title">Responsibilities:</h5>
+              <p class="timeline-text">
+                &#8226; Analyzed campaign data to derive insights for future ad campaigns, enhancing client profitability and ad reach. <br>
+                &#8226; Developed and maintained dashboards and reports using Power BI to visualize key performance metrics. <br>
+                &#8226; Automated data processing tasks with Python and R to improve efficiency and accuracy.<br>
+                &#8226; Created interactive web applications with R Shiny to allow clients to explore campaign data in real time.<br>
+              </p>
+              <br>
+
+              <h5 class="added-title">Skills:</h5>
+              <p class="timeline-text">
+                &#8226; Data Visualization: Proficiently used Power BI to create interactive dashboards.<br>
+                &#8226; Statistical Analysis: Applied R for in-depth data analysis and statistical modeling.<br>
+                &#8226; Web Application Development: Created interactive web applications using R Shiny. <br>
+                &#8226; Automated Data Processing: Utilized Python for data preprocessing and automation tasks. <br>
+
+              </p>
+             
+            </li>
+
+             <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Qhala*Britam - Data Science Fellow</h4>
+              <span>Mar 2023 - June 2023</span><br>
+              <h5 class="added-title">Responsibilities:</h5>
+              <p class="timeline-text">
+                &#8226; Gained data science skills using real-time data from ongoing projects. <br>
+                &#8226; Collaborated with the manager to analyze and interpret project data <br>
+                &#8226; Developed new products to automate processes for Britam during the second month of the fellowship. <br>
+                &#8226; Worked with the Qhala team to integrate new solutions into existing systems. <br>
+
+              </p>
+              <br>
+
+              <h5 class="added-title">Skills:</h5>
+              <p class="timeline-text">
+                &#8226; R Programming: Enhanced ability to write and optimize R code. <br>
+                &#8226; Data Visualization: Created effective visualizations to communicate insights.<br>
+                &#8226; R Shiny Apps: Developed and deployed interactive web applications. <br>
+                
+              </p>
+             
+            </li>
+
+          </ol>
+
+        </section>
+        <section class="skill">
+          <header>
+            <h2 class="h2 article-title">Technical skills</h2>
+          </header>
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Scikit-learn</h5>
+                <data value="30">30%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Pandas, Numpy</h5>
+                <data value="50">50%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Matplotlib, Seaborn</h5>
+                <data value="45">45%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 45%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Git, GitHub</h5>
+                <data value="90">90%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Power BI</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="">
+        
+        <header>
+          <h2 class="h2 article-title"></h2>
+        </header>
+        <section>
+          <ul class="content-card2" style="margin-bottom: 20px;">
+            <li class="timeline-text">
+             
+              <a href="" style="color: hsl(45, 100%, 72%);"></a>
+            </li>
+          </ul> 
+          
+  
+          <div class="filter-select-box">
+            <button data-select>
+            </button>
+          </div>
+        </section>
+      </article>
+
+      <!--
+        - #AWARDS
+      -->
+
+      <!-- <article class="contact" data-page="awards">
+        <header>
+          <h2 class="h2 article-title"></h2>
+        </header>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="trophy-outline"></ion-icon>
+            </div>
+            <h3 class="h3"></h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"></h4>
+              <span></span>
+              <p class="timeline-text" style="text-align: justify; text-justify: inter-word;">
+                
+                <a target="_blank" href="" style="color: hsl(45, 100%, 72%);"></a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"></h4>
+              <span></span>
+              <p class="timeline-text" style="text-align: justify; text-justify: inter-word;">
+                
+                <a target="_blank" href="" style="color: hsl(45, 100%, 72%);"></a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"></h4>
+              <span></span>
+              <p class="timeline-text" style="text-align: justify; text-justify: inter-word;">
+                
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title"></h4>
+              <span></span>
+              <p class="timeline-text" style="text-align: justify; text-justify: inter-word;">
+                
+              </p>
+            </li>
+          </ol>
+        </section>
+      </article> -->
+
+      <!--
+        - #PROJECTS
+      -->
+      <article class="blog" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <section class="blog-posts">
+         
+            <li class="timeline-text">
+            <section class="about-text" style="text-align: justify; text-justify: inter-word;">
+
+              <h2 style="color:#ffdb70;">Anomaly Detection</h2><br>
+              <p>My anomaly detection project focused on developing a method to identify and explain anomalies within five ADBench datasets. The primary objective was to detect unusual patterns or outliers that could indicate
+              errors, fraud, or significant but rare events. A major component of the project was ensuring the model's explainability, which involved creating methods to provide clear and understandable reasons 
+              for why certain data points were flagged as anomalies. <br><br>I explored and implemented various anomaly detection algorithms, such as isolation forests, clustering-based methods, and centrality measures ,
+              to determine the most effective approach for my data. Additionally, I created intuitive and informative visualizations to present the detected anomalies and their explanations, making it easier for 
+              stakeholders to understand and trust the results. The project applied theoretical concepts to practical problems, demonstrating how anomaly detection can be used in real-world scenarios to improve 
+              data quality, detect fraud, or identify significant events. Overall, this project significantly enhanced my expertise in anomaly detection and explainable AI, preparing me to tackle complex data 
+              analysis problems in future roles.</p> <br>
+
+              <h3>Skills:</h3><br>
+              <b>1. Advanced Data Analysis Techniques:</b> I gained hands-on experience with various data analysis techniques, including data preprocessing, feature extraction, and anomaly detection algorithms. 
+              This project enhanced my ability to identify and handle outliers and anomalies in large datasets. <br>
+              <b>2. Explainability and Interpretability:</b> I learned the importance of making machine learning models interpretable and understandable. By focusing on explainable AI, I developed methods to 
+              provide clear and concise explanations for detected anomalies, which is crucial for gaining trust and understanding from stakeholders. <br>
+              <b>3. Algorithm Selection and Implementation:</b> I explored and implemented different anomaly detection algorithms, such as isolation forests, clustering-based methods, and statistical techniques.
+               This helped me understand the strengths and weaknesses of various approaches and how to choose the appropriate method for different types of data. <br>
+              <b>4. Visualization Skills:</b> I improved my data visualization skills by creating intuitive and informative visual representations of anomalies and their explanations. 
+               Effective visualization is essential for communicating findings to non-technical audiences.<br>
+              <b>5. Project Management and Collaboration:</b> Working on this project taught me valuable project management skills, including setting goals, managing timelines, and collaborating with team members. 
+              Effective communication and teamwork were key to successfully completing the project. <br>
+              <b>6. Critical Thinking and Problem-Solving: </b>  The project challenged me to think critically about data quality, algorithm performance, and the practical implications of detected anomalies. 
+              It honed my problem-solving skills and ability to adapt to new challenges. <br> <br>
+
+              <a href="https://github.com/Apondi-Otieno/GDL" style="color:#ebd081;" target="_blank" class="project-link" >Access the project here</a> <br> 
+
+
+              <h2 style="color:#ffdb70;">Thinking BIH Case Studies</h2><br>
+              <p>From the project detailed in the document, I learned the importance of thorough market analysis in making informed decisions for a new business venture. Specifically, I gained
+                 insights into how location, niche targeting, and customer behavior are critical in determining the success of a retail business like a gluten-free bakery. The project also
+                 highlighted the value of understanding operational costs and the need for data-driven adjustments to pricing and discounts to enhance profitability. Additionally, the significance
+                 of online presence and customer engagement through digital platforms became clear as essential strategies for modern businesses. 
+
+              </p>
+
+              <h3>Skills:</h3><br>
+
+             <b>1. Market Analysis</b>: I learned to assess the viability of different locations by analyzing niche demographics, foot traffic, and competitive presence.<br>
+
+             <b>2. Operational Cost Analysis </b>: I developed the ability to perform detailed financial analysis, identifying key areas of expenditure, and suggesting cost optimization strategies.<br>
+
+             <b>3. Customer Segmentation</b>: I refined my skills in clustering and segmenting products and customers based on sales data, which informed targeted marketing and inventory management strategies.<br>
+
+             <br><p><a href="https://drive.google.com/file/d/19TIrETeEMBpgIHnuGhcO0k8Yrmj4zwQR/view?usp=sharing" style="color:#ebd081;" target="_blank" class="project-link" >Access the project here</a></p>
+</section>
+           
+            </li>
+          
+         
+         
+        
+
+        </section>
+      </article>
+
+
+        <article class="portfolio" data-page="Conferences">
+        <header>
+          <h2 class="h2 article-title" style="margin-top: 30px;">Conferences</h2>
+        </header>
+        <section class="blog-posts">
+          <ul class="content-card2" style="margin-bottom: 15px;">
+            <li class="timeline-text">
+             <h3>Mathematics & AI Summer Schools</h3>
+            <span>2021-2022, Nairobi</span>
+            <p>Attended several summer schools, including NYU Artificial Intelligence School 2022,
+            EAUMP Summer School in Concrete Mathematics 2021, and Game of Learners Clinic by
+            Microsoft 2022.</p>
+            </li>
+          </ul>
+
+          <ul class="content-card2" style="margin-bottom: 15px;">
+            <li class="timeline-text">
+             
+            </li>
+          </ul>
+
+          <ul class="content-card2" style="margin-bottom: 15px;">
+            <li class="timeline-text"> </li>
+          </ul>
+        </section>
+      </article>
+
+    </div>
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
